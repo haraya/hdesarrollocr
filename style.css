@@ -1,0 +1,99 @@
+
+
+  #skills{
+    background-color: #F6F5F2;
+  }
+
+.cardProjects{
+
+  background-color:#FEFAF6 ;
+}
+
+h4{
+  text-decoration: none;
+  color:#074173;
+}
+
+
+.carousel-item img{
+  max-height: 600px; /* Ajusta el valor según tu preferencia */
+  object-fit: cover;
+
+}
+
+#about{
+  background-color: #FFF7FC;
+}
+
+.btn-color{
+
+  background-color:#496989; 
+  border-color: #496989;
+}
+.btn-color:hover{
+
+  background-color:#496989; 
+  border-color: #496989;
+}
+
+.navbar2 {
+  padding: 10px 100px 10px 0px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000; 
+}
+.white {/* white en menu*/
+  color: white !important;
+}
+
+.imagen{
+  padding: 35px;
+}
+
+.content{
+
+  padding-top: 60px;
+}
+
+@media only screen and (max-width: 993px) {
+  /* Estilos para dispositivos con pantalla de hasta 768px de ancho, como tablets */
+  .navbar2 {
+    position: relative; /* Quita la posición fija del menú */
+    padding-left: 25px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  /* Estilos para dispositivos con pantalla de hasta 576px de ancho, como smartphones */
+  .navbar2 {
+    background-color: transparent; /* Hace transparente el fondo del menú */
+  }
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+  /* Ajusta el número de tarjetas por fila en dispositivos con pantalla de hasta 768px de ancho */
+  .col-lg-3 {
+    flex: 0 0 50%; /* Establece que cada tarjeta ocupe el 50% del ancho en pantallas pequeñas */
+    max-width: 50%; /* Establece el ancho máximo para cada tarjeta en pantallas pequeñas */
+  }
+}
+
+@media only screen and (max-width: 565px) {
+  /* Ajusta el número de tarjetas por fila en dispositivos con pantalla de hasta 576px de ancho */
+  .col-lg-3 {
+    flex: 0 0 50%; /* Establece que cada tarjeta ocupe el 100% del ancho en pantallas aún más pequeñas */
+    max-width: 50%; /* Establece el ancho máximo para cada tarjeta en pantallas aún más pequeñas */
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  /* Ajusta el número de tarjetas por fila en dispositivos con pantalla de hasta 576px de ancho */
+  .col-lg-3 {
+    flex: 0 0 75%; /* Establece que cada tarjeta ocupe el 100% del ancho en pantallas aún más pequeñas */
+    max-width: 100%; /* Establece el ancho máximo para cada tarjeta en pantallas aún más pequeñas */
+  }
+}
